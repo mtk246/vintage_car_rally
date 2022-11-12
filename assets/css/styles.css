@@ -1,0 +1,59 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--color-two);
+    transition: all .5s ease-in-out;
+    font-weight: normal;
+}
+
+.section-1 {
+    height: 70vh;
+    background-size: cover;
+    position: relative;
+    opacity: 0.8;
+}
+
+header {
+    background: url('https://3.bp.blogspot.com/-w_J8V4hnmhE/URvGcYhOQzI/AAAAAAAAFnA/SoXDpQO21po/s1600/image-thumbCA26INLQ.jpg') no-repeat center center;
+	/* background: url(https://wallpaperaccess.com/full/369877.jpg) no-repeat center center fixed; */
+	padding-top: 60%;
+	background-size: cover;
+    font-family: 'Sucrose Bold Two', sans-serif;
+}
+
+header img {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 45.8%;
+}
+
+header h1 { 
+	position: fixed;
+	top: 2rem;
+	right: 2rem;
+    font-size: 8vw;
+    line-height: .8;
+    margin-top: 0;
+    text-align: right;
+    color: var(--color-one);
+    text-shadow: 0 0 1rem var(--color-two);
+}
+
+header h1 span {
+  display: block;
+  font-size: 8.75vw;
+}
+
+.content-1 {
+    /* position: absolute;
+    width: 60%;
+    color: var(--color-two);
+    padding: var(--padding-1);
+    border-radius: 0.5rem; */
+}
+
+.about {
+    
+}
