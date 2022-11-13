@@ -16,7 +16,6 @@ html, body {
 
 header {
     background: url('https://3.bp.blogspot.com/-w_J8V4hnmhE/URvGcYhOQzI/AAAAAAAAFnA/SoXDpQO21po/s1600/image-thumbCA26INLQ.jpg') no-repeat center center;
-	/* background: url(https://wallpaperaccess.com/full/369877.jpg) no-repeat center center fixed; */
 	padding-top: 60%;
 	background-size: cover;
     font-family: 'Sucrose Bold Two', sans-serif;
@@ -46,14 +45,24 @@ header h1 span {
   font-size: 8.75vw;
 }
 
-.content-1 {
-    /* position: absolute;
-    width: 60%;
-    color: var(--color-two);
-    padding: var(--padding-1);
-    border-radius: 0.5rem; */
+.container-gallery {
+    max-height: max-content;
+    margin: 0;
 }
 
-.about {
-    
+.footer {
+    background: var(--color-one);
+    color: var(--color-two);
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.fork {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fork a img {
+    margin: 0 0.5rem;
 }

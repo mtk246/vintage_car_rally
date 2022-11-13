@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vintage Car Rally</title>
-    <link rel="stylesheet" href="assets/css/default.css">
-    <link rel="stylesheet" href="assets/css/variables.css">
-    <link rel="stylesheet" href="assets/css/navbar.css">
-    <link rel="stylesheet" href="assets/css/media_queries.css" defer>
-    <link rel="stylesheet" href="assets/css/styles.css" defer>
+    <link rel="stylesheet" href="assets/css/default.css" defer/>
+    <link rel="stylesheet" href="assets/css/variables.css" defer/>
+    <link rel="stylesheet" href="assets/css/navbar.css" defer/>
+    <link rel="stylesheet" href="assets/css/media_queries.css" defer/>
+    <link rel="stylesheet" href="assets/css/slideshow.css" defer/>
+    <link rel="stylesheet" href="assets/css/gallery.css" defer/>
+    <link rel="stylesheet" href="assets/css/styles.css" defer/>
+    <link rel="stylesheet" href="assets/css/gallery.css" defer/>
 </head>
 <body>
     <div id="navbar">
@@ -38,7 +41,7 @@
                     <a href="contact.html" class="btn m-1">Contact Us</a>
                 </div>
             </header>
-            <div class="container">
+            <div class="container" id="content-1">
                 <div class="row about p-2">
                     <div class="col-6 text-left">
                         <h2>About</h2>
@@ -47,8 +50,156 @@
                         </p>
                     </div>
                     <div class="col-6">
-                        <img src="https://3.bp.blogspot.com/-w_J8V4hnmhE/URvGcYhOQzI/AAAAAAAAFnA/SoXDpQO21po/s1600/image-thumbCA26INLQ.jpg" alt=""/>
+                        <img src="https://3.bp.blogspot.com/-5UqeX_YC4xo/VyDxSNS2HiI/AAAAAAAAa44/cKwK6yX8Pb4HU9NYbthZaoQfY3eYYKqogCLcB/s1600/Rally-DS23-1973.jpg" alt="vintage-car"/>
                     </div>
+                </div>
+            </div>
+            <div class="container" id="content-2">
+                <h2>MANUFACTURERS FOR VINTAGE-RALLY-CARS</h2>
+                <div class="manufacture p-2">
+                    <img src="assets/img/car_manufacture.jpg" alt="car_manufacture_logo"/>
+                </div>
+            </div>
+            <div class="container container-slideshow" id="content-3">
+                <h2>TOP 3 VINTAGE-RALLY-CARS</h2>
+                <div class="container container-slideshow">
+                    <input type="radio" name="slider" id="item-1" checked>
+                    <input type="radio" name="slider" id="item-2">
+                    <input type="radio" name="slider" id="item-3">
+                    <div class="cards">
+                        <label class="card" for="item-1" id="rally-1">
+                            <img src="https://i.pinimg.com/originals/d5/5e/68/d55e6865a0fe9bdc626fb197e5583778.jpg" alt="rally-porsche">
+                        </label>
+                        <label class="card" for="item-2" id="rally-2">
+                            <img src="http://1.bp.blogspot.com/-fOBn7aRcFeA/US1tqn1agCI/AAAAAAAAFu8/AYbwSiPJr9I/s1600/image00016.jpg" alt="rally-nismo">
+                        </label>
+                        <label class="card" for="item-3" id="rally-3">
+                            <img src="https://www.racedandrallied.com/sites/default/files/styles/large/public/classifieds-photos/6913/_dsc8964.jpg?itok=TwAn-mW-" alt="rally-bmw">
+                        </label>
+                    </div>
+                    <div class="player">
+                        <div class="upper-part">
+                            <div class="info-area" id="test">
+                                <label class="car-info" id="car-info-1">
+                                    <div class="title">Porsche</div>
+                                </label>
+                                <label class="car-info" id="car-info-2">
+                                    <div class="title">Nismo</div>
+                                </label>
+                                <label class="car-info" id="car-info-3">
+                                    <div class="title">BMW</div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container container-gallery" id="gallery">
+                <h2>Gallery</h2>
+                <div class="row">
+                    <div class="row col-12">
+                        <div class="col-4">
+                            <div class="p-1">
+                                <img src="https://www.racedandrallied.com/sites/default/files/styles/large/public/classifieds-photos/6913/_dsc8964.jpg?itok=TwAn-mW-" alt="rally-1"/>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="p-1">
+                                <img src="https://www.racedandrallied.com/sites/default/files/styles/large/public/classifieds-photos/6913/_dsc8964.jpg?itok=TwAn-mW-" alt="rally-1"/>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="p-1">
+                                <img src="https://www.racedandrallied.com/sites/default/files/styles/large/public/classifieds-photos/6913/_dsc8964.jpg?itok=TwAn-mW-" alt="rally-1"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row col-12">
+                        <div class="col-6">
+                            <div class="p-1">
+                                <img src="https://www.racedandrallied.com/sites/default/files/styles/large/public/classifieds-photos/6913/_dsc8964.jpg?itok=TwAn-mW-" alt="rally-1"/>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="p-1">
+                                <img src="https://www.racedandrallied.com/sites/default/files/styles/large/public/classifieds-photos/6913/_dsc8964.jpg?itok=TwAn-mW-" alt="rally-1"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subscribe">
+                <div class="row">
+                    <div class="col-6 text-center">
+                        <div class="p-1">
+                            <img class="transform" src="https://tse4.mm.bing.net/th?id=OIP.2OfcasJRQsrc1b2RlT2W-AHaFK&pid=Api" alt="people-dancing" />
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="p-1">
+                            <h2>
+                                Subscribe and get exclusive offers
+                            </h2>
+                            <p class="subscribe-text">
+                                Subscribe to our newsletter and get exclusive deals you wont find anywhere else straight to your inbox!
+                            </p>
+                            <form>
+                                <div class="form-group row">
+                                    <div class="col-12">
+                                        <input type="email" class="form-control" id="email" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <a class="btn btn-full text-center" href="classes.html">Join Us</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="row">
+                    <div class="col-4 col-s-12">
+                        <div class="p-1">
+                            <h2>Company</h2>
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Our Team</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-4 col-s-12">
+                        <div class="p-1">
+                            <h2>Support</h2>
+                            <ul>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Help Desk</a></li>
+                                <li><a href="#">Forums</a></li>
+                                <li><a href="#">Terms of Service</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-4 col-s-12">
+                        <div class="p-1">
+                            <h2>Legal</h2>
+                            <ul>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms of Use</a></li>
+                                <li><a href="#">Security</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p>© 2020 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+                </div>
+                <div class="fork">
+                    Fork the repo on
+                    <a href="https://github.com/mtk246/dancing_club.git" target="_blank">
+                        <img src="assets/img/github.svg" alt="github" class="icon"/>
+                    </a>
                 </div>
             </div>
         </div>
