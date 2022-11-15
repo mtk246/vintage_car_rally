@@ -16,8 +16,9 @@ input[type=radio] {
 }
 
 .container-slideshow {
-    max-height: 600px;
     margin: 0;
+    max-height: 35rem !important;
+    height: 100%;
 }
 
 .cards {

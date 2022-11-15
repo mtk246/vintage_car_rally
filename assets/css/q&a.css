@@ -1,0 +1,45 @@
+header {
+    background: url("https://www.endurorally.com/wp-content/uploads/2020/02/04666-NZ-2020_BP.jpg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+summary {
+    font-size: 1.25rem;
+    font-weight: 600;
+    background-color: #fff;
+    color: #333;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    outline: none;
+    border-radius: 0.25rem;
+    text-align: left;
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+}
+main {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 1rem;
+}
+details[open] summary ~ * {
+    animation: sweep .5s ea;
+}
+@keyframes sweep {
+    0%    {opacity: 0; margin-top: -10px}
+    100%  {opacity: 1; margin-top: 0px}
+}
+details > summary::after {
+    position: absolute;
+    content: "+";
+    right: 20px;
+}
+details[open] > summary::after {
+    position: absolute;
+    content: "-";
+    right: 20px;
+}
+details > summary::-webkit-details-marker {
+    display: none;
+}

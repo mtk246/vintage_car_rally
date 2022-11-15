@@ -1,3 +1,8 @@
+header {
+    background: url("http://static3.businessinsider.com/image/51b7482f69bedde10b000015-1200/the-british-drivers-of-the-1929-ford-model-a-speedster-get-ready-to-leave-the-city.jpg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
 .content-1 {
     padding: 2rem;
 }
@@ -7,6 +12,15 @@ img {
     height: auto;
     vertical-align: middle;
     display: inline-block;
+    border-radius: 0.5rem;
+}
+
+img:hover {
+    scale: 1.5;
+}
+
+img.manufacture-img:hover{
+    scale: 1;
 }
 
 /* Main CSS */
